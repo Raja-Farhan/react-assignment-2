@@ -1,0 +1,41 @@
+.who-section{
+    font-family: 'Poppins', sans-serif;
+}
+.who-top-head{
+    color: #F54C1E;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.who-main-head{
+    color: #031333;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.who-para{
+    color: #818181;
+    line-height: 160%;
+    font-size: 16px;
+}
+.bullet-1, .bullet-2, .bullet-3{
+    color: #989898;
+    font-size: 18px;
+    font-weight: 500;
+}
+.small-image{
+    position: absolute;
+    left:15rem !important;
+    top: 15rem;
+}
+@media screen and (max-width:376px) {
+    .small-image{
+        top: 18rem !important;
+    }
+    .who-top-head{
+        margin-top: 3rem;
+    }
+    .who-main-head{
+        font-size: 35px;
+    }
+}

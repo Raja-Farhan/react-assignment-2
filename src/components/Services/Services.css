@@ -1,0 +1,24 @@
+.services-section{
+    background-color: #031333;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5rem;
+}
+.services-heading{
+    color: #F54C1E;
+    font-size: 20px;
+}
+.services-main-heading{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 376px) {
+    .services-main-heading{
+        font-size: 38px !important;
+        text-align: center;
+    }
+    .services-left-image{
+        padding-bottom: 2rem;
+    }
+}

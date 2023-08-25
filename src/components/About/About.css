@@ -1,0 +1,55 @@
+.about-section{
+    margin-top: 8rem !important;
+    font-family: 'Poppins', sans-serif;
+}
+.about-heading{
+    color: #F54C1E;
+    font-size: 20px;
+}
+.about-main-heading{
+    color: #031333;
+    font-size: 48px;
+    font-weight: 600;
+}
+.about-para{
+    color: #818181;
+    color: 16px;
+    line-height: 160%;
+}
+.btn-phone{
+    background-color: #F54C1E !important;
+    color: white !important;
+}
+.right-image{
+    padding-left: 3em !important;
+}
+.left-image{
+    padding-left: 5em !important;
+}
+
+@media screen and (max-width:376px){
+    .left-image{
+        padding-left: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+    .right-image{
+        padding-left: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+    .about-heading{
+        margin-top: 3rem !important;
+        display: flex;
+        justify-content: center;
+    }
+    .para-div, .main-head-div{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn-div{
+        display: flex;
+        justify-content: center;
+    }
+}

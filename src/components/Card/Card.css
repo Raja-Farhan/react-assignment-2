@@ -1,0 +1,17 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.card-img-top{
+    width: 60px;
+    height: 60px;
+}
+.card-title{
+    color: #031333 !important;
+    font-size: 28px !important;
+    font-weight: 500;
+}
+.card-text{
+    color: #949494;
+    font-size: 18px;
+    font-weight: 400;
+}

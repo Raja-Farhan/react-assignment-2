@@ -1,0 +1,24 @@
+.consult-section{
+    background: rgba(3, 19, 51, 0.70);
+}
+.consult-heading{
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 149.5%;
+}
+.btn-consult{
+    background-color: #F45C1E  !important;
+    color: #fff !important;
+}
+@media screen and (max-width:376px){
+    .consult-heading{
+        font-size: 38px!important;
+        text-align: center;
+    }
+    .btn-consult{
+        padding-top: 1rem !important;
+        padding-bottom: 2.5rem !important;
+        text-align: center;
+    }
+}

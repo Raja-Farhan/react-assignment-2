@@ -1,0 +1,20 @@
+.footer{
+    background-color: #031333;
+    color: #ffff;
+}
+.footer-para{
+    font-family: 'Inter', sans-serif;
+    color: #fdfdfd;
+    font-size: 20px;
+}
+@media screen and (max-width: 376px){
+    .footer-para{
+        font-size: 18px;
+    }
+    .links-section{
+        margin-top: 2rem !important;
+    }
+    .links-col-1, .links-col-2, .links-col-3{
+        margin-right: 1rem;
+    }
+}   

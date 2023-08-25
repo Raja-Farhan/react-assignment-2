@@ -1,0 +1,19 @@
+.projects-top-head{
+    color: #F54C1E;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.projects-main-head{   
+    color:#031333;
+    font-size: 38px;
+    font-weight: 600;
+}
+@media screen and (max-width:376px) {
+    .projects-main-head{
+        text-align: center;
+    }
+    .image-1, .image-2, .image-3, .image-4{
+        height: 95% !important;
+    }
+}

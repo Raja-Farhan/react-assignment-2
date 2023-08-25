@@ -1,0 +1,35 @@
+.team-head{
+    color: #F54C1E;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+.team-main-head{
+    color: #031333;
+    font-size: 38px;
+    font-weight: 600;   
+}
+.emp-name{
+    color: #071440;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.emp-designation{
+    color: #676972;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+}
+@media screen and (max-width:376px){
+    .team-main-head{
+        font-size: 32px !important;
+        text-align: center;
+    }
+    .emp-name{
+        text-align: center;
+    }
+    .emp-designation{
+        text-align: center;
+    }
+}
